@@ -1,0 +1,57 @@
+
+.container{
+  width: 100%;
+  margin: 0px auto;
+}
+p, #timeUpdate{
+  width: 100%;
+  text-align: center;
+}
+#time{
+  width: 100%;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 50px;
+}
+.functionalButtons{
+  text-align: center;
+}
+
+
+
+
+/* .panel {
+  width: 9rem;
+  text-align: center;
+}
+.display {
+  margin: auto;
+  width: 9rem;
+  text-align: center;
+}
+.display div {
+  display: inline-block;
+  margin: 0.2rem;
+}
+.number {
+  padding: 0.2rem;
+  width: 2rem;
+  text-align: center;
+}
+.up-indicator.lit {
+  color: green;
+}
+.down-indicator.lit {
+  color: red;
+}
+.panel {
+  margin: auto;
+}
+.panel button {
+  display: block;
+  margin: auto;
+  width: 3rem;
+}
+.panel button.lit {
+  color: yellow;
+} */

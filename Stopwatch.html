@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Stopwatch.css" />
+    <title>StopWatch</title>
+  </head>
+  <body>
+    <p>Stopwatch, Made In India <3!</p>
+    <div class="container">
+      <div id="time">
+        00: 00: 00
+      </div>
+      <div id="timeUpdate"></div>
+      <div class="functionalButtons">
+        <button id="start" onclick="startTimer()">Start</button>
+        <button id="pause" disabled onclick="pauseTimer()">Pause</button>
+        <button id="stop" disabled onclick="resetTimer()">Stop</button>
+      </div>
+    </div>
+    <script src="./Stopwatch.js"></script>
+  </body>
+</html>
